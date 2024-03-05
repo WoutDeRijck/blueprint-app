@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <ui:Label tabindex="-1" text="Question" display-tooltip-when-elided="true" name="Question" style="-unity-text-align: upper-center; font-size: 30px; -unity-text-outline-color: rgba(0, 0, 0, 0); color: rgb(241, 19, 19); -unity-font-style: bold;" />
+        <ui:Label tabindex="-1" text="Wrong answer:" display-tooltip-when-elided="true" name="WrongAnswer" style="height: 28px; width: 280px; position: relative; top: 23%; left: 50%; bottom: auto; font-size: 20px; color: rgb(255, 0, 0); -unity-font-style: bold;" />
+        <ui:Label tabindex="-1" text="Correct answer:" display-tooltip-when-elided="true" name="CorrectAnswer" style="height: 28px; width: 239px; white-space: nowrap; position: relative; top: 15%; left: 5%; bottom: auto; color: rgb(255, 0, 0); font-size: 20px; -unity-font-style: bold;" />
+    </ui:VisualElement>
+</ui:UXML>

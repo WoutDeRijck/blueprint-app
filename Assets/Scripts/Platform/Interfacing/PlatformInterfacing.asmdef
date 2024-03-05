@@ -1,0 +1,25 @@
+{
+    "name": "PlatformInterfacing",
+    "rootNamespace": "",
+    "references": [
+        "GUID:55328a97849194641aafec55d7e7f01a",
+        "GUID:abb9d1649dc782845bd31c6458221905",
+        "GUID:03058786646e84a4587858e9302c3f41",
+        "GUID:1491147abca9d7d4bb7105af628b223e",
+        "GUID:fe25561d224ed4743af4c60938a59d0b",
+        "GUID:5540e30183c82e84b954c033c388e06c",
+        "GUID:4c3f49d89436d478ea78315c03159dcc",
+        "GUID:0437d04145d432340be34960e6f19b74",
+        "GUID:c6727c2813289de4890fc141925806e5",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

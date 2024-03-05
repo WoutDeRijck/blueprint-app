@@ -1,0 +1,25 @@
+.bp-button {
+    width: 15%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 19px;
+    -unity-font-style: bold;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.bp-button:hover {
+    width: 15%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 19px;
+    -unity-font-style: bold;
+    background-color: rgb(84, 56, 220);
+    color: rgb(255, 255, 255);
+}

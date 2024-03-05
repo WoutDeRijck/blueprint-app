@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/BluePrintThemes/bluePrint.uss?fileID=7433441132597879392&amp;guid=0f11ff20c9d729346a4c30ca29dc91bb&amp;type=3#bluePrint" />
+    <ui:VisualElement name="Container" class="menuContainer">
+        <ui:VisualElement name="left-top" class="leftTop menuBox smallBox moveHover">
+            <ui:Label tabindex="-1" text="Left Top" display-tooltip-when-elided="true" name="left-top-text" class="menuText" />
+        </ui:VisualElement>
+        <ui:VisualElement name="right-top" class="menuBox smallBox moveHover rightTop">
+            <ui:Label tabindex="-1" text="Right Top" display-tooltip-when-elided="true" name="right-top-text" class="menuText" />
+        </ui:VisualElement>
+        <ui:VisualElement name="left-bottom" class="leftBottom menuBox smallBox moveHover">
+            <ui:Label tabindex="-1" text="Left Bottom" display-tooltip-when-elided="true" name="left-bottom-text" class="menuText" />
+        </ui:VisualElement>
+        <ui:VisualElement name="right-bottom" class="menuBox smallBox moveHover rightBottom">
+            <ui:Label tabindex="-1" text="Right Bottom" display-tooltip-when-elided="true" name="right-bottom-text" class="menuText" />
+        </ui:VisualElement>
+        <ui:VisualElement name="center-menu" class="menuCenter menuBox">
+            <ui:Label tabindex="-1" text="Menu Titel" display-tooltip-when-elided="true" name="menu-title" class="menuTitle" />
+            <ui:Label tabindex="-1" text="Menu Tekst" display-tooltip-when-elided="true" name="menu-text" class="menuText" />
+            <ui:Button text="Knop" display-tooltip-when-elided="true" class="moveHover buttonStandard" />
+            <ui:TextField picking-mode="Ignore" value="vul in..." name="text-field" />
+            <ui:MinMaxSlider picking-mode="Ignore" min-value="10" max-value="12" low-limit="-10" high-limit="40" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

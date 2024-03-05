@@ -1,0 +1,32 @@
+:root {
+    --color-blueprint-blue: rgb(36, 64, 147);
+    --color-blueprint-purple: rgb(138, 29, 109);
+    --color-blueprint-sky: rgb(191, 227, 236);
+    --color-blueprint-green: rgb(54, 126, 146);
+    --color-menu-background: rgb(234, 234, 234);
+    --color-menu-text: rgb(26, 26, 26);
+    --color-input-border: rgb(122, 122, 122);
+    --color-dark: rgb(16, 25, 53);
+    --color-primary: rgb(0, 93, 228);
+    --color-secondary: rgb(38, 196, 133);
+    --color-light: rgb(232, 241, 255);
+    --color-gray: rgb(173, 182, 196);
+}
+
+.normal {
+    background-color: rgb(255, 255, 255);
+}
+
+.normal-text {
+    color: black;
+    -unity-font-style: normal;
+}
+
+.highlighted {
+    background-color: var(--color-primary);
+}
+
+.highlighted-text {
+    color: white;
+    -unity-font-style: bold;
+}

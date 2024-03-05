@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Minigames/GroupBomb/BaseUI.uss?fileID=7433441132597879392&amp;guid=157b994368f96b64696c93a27abc3b79&amp;type=3#BaseUI" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(255, 255, 255, 0);">
+        <ui:VisualElement name="BackGround" style="background-color: rgba(0, 0, 0, 0); justify-content: flex-start; width: 100%; height: 100%; flex-direction: row;">
+            <ui:VisualElement name="ColumnLeft" style="background-color: rgba(0, 0, 0, 0); flex-grow: 0.7; justify-content: space-around; align-items: center;">
+                <ui:Label tabindex="-1" text="Group1" display-tooltip-when-elided="true" enable-rich-text="true" name="Group1" class="Question GroupNames" style="height: 97px; width: 596px; font-size: 60px; -unity-text-align: middle-center; white-space: normal; align-items: flex-start;" />
+                <ui:Label tabindex="-1" text="Group2" display-tooltip-when-elided="true" enable-rich-text="true" name="Group2" class="Question GroupNames" style="height: 97px; width: 596px; font-size: 60px; -unity-text-align: middle-center; white-space: normal; align-items: flex-start;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="VisualElement" style="flex-grow: 2; background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="ColumnRight" style="background-color: rgba(0, 0, 0, 0); flex-grow: 1; justify-content: space-around; align-items: center;">
+                <ui:Label tabindex="-1" text="Group3" display-tooltip-when-elided="true" enable-rich-text="true" name="Group3" class="Question GroupNames" style="height: 97px; width: 596px; font-size: 60px; -unity-text-align: middle-center; white-space: normal; align-items: flex-start;" />
+                <ui:Label tabindex="-1" text="Group4" display-tooltip-when-elided="true" enable-rich-text="true" name="Group4" class="Question GroupNames" style="height: 97px; width: 596px; font-size: 60px; -unity-text-align: middle-center; white-space: normal; align-items: flex-start;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

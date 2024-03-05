@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Contrainer" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: auto; flex-direction: row; height: 64px; flex-shrink: 0; align-items: center;">
+        <ui:VisualElement name="Emblem" style="background-image: resource(&apos;Framework/classroom&apos;); width: 40px; height: 40px; -unity-background-scale-mode: scale-to-fit; flex-grow: 0; flex-shrink: 0;" />
+        <ui:Label tabindex="-1" text="#Klas Naam" display-tooltip-when-elided="true" name="NameLabel" style="text-overflow: ellipsis; font-size: 18px; -unity-text-align: middle-left; -unity-font-style: normal; -unity-font-definition: url(&apos;project://database/Assets/UI/Fonts/SecularOne-Regular%20SDF.asset?fileID=11400000&amp;guid=6d88ecadc4d679d46a8285d872eb63af&amp;type=2#SecularOne-Regular SDF&apos;); color: rgb(0, 0, 0); width: 71%;" />
+        <ui:Label tabindex="-1" text="#ID" display-tooltip-when-elided="true" name="label-id" style="-unity-font-style: normal; font-size: 18px; -unity-font-definition: url(&apos;project://database/Assets/UI/Fonts/SecularOne-Regular%20SDF.asset?fileID=11400000&amp;guid=6d88ecadc4d679d46a8285d872eb63af&amp;type=2#SecularOne-Regular SDF&apos;); color: rgb(0, 0, 0); padding-left: 2px; width: 10%;" />
+    </ui:VisualElement>
+</ui:UXML>

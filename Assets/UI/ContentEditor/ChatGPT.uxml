@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/BluePrintThemes/bluePrint.uss?fileID=7433441132597879392&amp;guid=0f11ff20c9d729346a4c30ca29dc91bb&amp;type=3#bluePrint" />
+    <ui:VisualElement name="ChatBoxPanel" class="menuContainer" style="height: auto; background-color: rgb(36, 64, 147); width: auto; transform-origin: center; align-items: stretch; flex-grow: 1; flex-wrap: nowrap; visibility: visible; flex-direction: column; justify-content: center;">
+        <ui:VisualElement name="ChatInput" class="menuBox" style="flex-grow: 0; flex-direction: column; flex-shrink: 1; height: 1028px; width: 986px;">
+            <ui:VisualElement name="TextContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                <ui:TextField picking-mode="Ignore" value="A lesson about multiplication in elementary school" name="ChatInputField" password="false" max-length="-1" multiline="true" style="flex-direction: column; flex-shrink: 1; flex-grow: 1; align-items: auto; justify-content: flex-start; white-space: normal; flex-wrap: wrap; -unity-text-align: upper-left; text-overflow: clip; font-size: 20px; height: 958px; width: 979px; border-left-color: rgb(234, 234, 234); border-right-color: rgb(234, 234, 234); border-top-color: rgb(234, 234, 234); border-bottom-color: rgb(234, 234, 234);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="ButtonContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: column; align-self: flex-end;">
+                <ui:Button text="Send" display-tooltip-when-elided="true" name="SendButton" class="moveHover" style="justify-content: flex-start; -unity-text-align: middle-center; align-items: center; flex-direction: column; font-size: 20px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

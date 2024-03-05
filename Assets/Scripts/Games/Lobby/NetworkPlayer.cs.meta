@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/Games/Lobby/NetworkPlayer.cs.meta
+guid: 96c990851ba21804596f6f803179e4ff
+========
+guid: 36caa171864cf1447962b217a6374ab7
+>>>>>>>> d2a7a058bb0c27eac07cea6e467f0df8789053bb:Assets/Scripts/Games/TowerDefense/TowerDefenseNetwork.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

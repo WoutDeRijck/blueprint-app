@@ -1,0 +1,279 @@
+:root {
+    --color-blueprint-blue: rgb(36, 64, 147);
+    --color-blueprint-purple: rgb(138, 29, 109);
+    --color-blueprint-sky: rgb(191, 227, 236);
+    --color-blueprint-green: rgb(54, 126, 146);
+    --color-menu-background: rgb(234, 234, 234);
+    --color-menu-text: rgb(26, 26, 26);
+    --color-input-border: rgb(122, 122, 122);
+    --color-dark: rgb(16, 25, 53);
+    --color-primary: rgb(0, 93, 228);
+    --color-secondary: rgb(38, 196, 133);
+    --color-light: rgb(232, 241, 255);
+    --color-gray: rgb(173, 182, 196);
+}
+
+.menuContainer {
+    background-color: var(--color-blueprint-blue);
+    font-size: 20px;
+    -unity-font-style: bold;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    color: var(--color-menu-text);
+}
+.unity-list-view__empty-label {
+    display: none;
+}
+
+.menuBox {
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition-duration: 0.2s;
+    border-left-color: var(--color-blueprint-sky);
+    border-right-color: var(--color-blueprint-sky);
+    border-top-color: var(--color-blueprint-sky);
+    border-bottom-color: var(--color-blueprint-sky);
+    color: var(--color-menu-text);
+    background-color: var(--color-menu-background);
+    align-self: center;
+}
+
+.smallBox {
+    width: 17%;
+    height: 7%;
+    max-width: 160px;
+    max-height: 100px;
+    min-width: 120px;
+    min-height: 40px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.leftTop {
+    margin-top: 0;
+    margin-left: 0;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+
+
+.rightTop {
+    margin-top: 0;
+    margin-left: 0;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.rightBottom {
+    margin-top: 0;
+    margin-left: 0;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.leftBottom {
+    margin-top: 0;
+    margin-left: 0;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.menuCenter {
+    width: 30%;
+    height: 70%;
+    min-width: 170px;
+    max-width: none;
+    justify-content: flex-start;
+}
+
+.menuTitle {
+    font-size: 150%;
+}
+
+.menuText {
+    font-size: 95%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+TextField {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    margin-bottom: 5%;
+    color: var(--color-menu-text);
+    border-left-color: var(--color-input-border);
+    border-right-color: var(--color-input-border);
+    border-top-color: var(--color-input-border);
+    border-bottom-color: var(--color-input-border);
+}
+
+Label {
+    text-overflow: ellipsis; /* Possible values: clip | ellipsis */
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+TextField .unity-base-field__input {
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    background-color: white;
+    height: 90%;
+}
+TextField .unity-label {
+    width: 31%;
+}
+
+DropdownField .unity-base-field__input {
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    background-color: white;
+
+    height: 90%;
+}
+
+DropdownField .unity-label {
+    width: 30%;
+}
+
+Button {
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    transition-duration: 0.2s;
+    color: var(--color-menu-text);
+    background-color: var(--color-light);
+    font-size: 18px;
+    -unity-text-align: middle-center;
+    white-space: normal;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    cursor: initial;
+}
+
+.primary {
+    color: white;
+    background-color: rgb(0, 93, 228);
+}
+
+.secondary {
+    background-color: var(--color-secondary);
+    color: white;
+}
+
+.text-primary {
+    color: var(--color-primary);
+}
+
+.text-secondary {
+    color: var(--color-secondary);
+}
+
+Button:hover {
+    translate: 0 -3%;
+    cursor: link;
+}
+
+MinMaxSlider {
+    background-color: var(--color-menu-background);
+    width: 85%;
+}
+
+MinMaxSlider .unity-min-max-slider__min-thumb {
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    opacity: 1;
+    background-color: var(--color-menu-background);
+    border-color: var(--color-blueprint-blue);
+}
+
+MinMaxSlider .unity-min-max-slider__max-thumb {
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    opacity: 1;
+    background-color: var(--color-menu-background);
+    border-color: var(--color-blueprint-blue);
+}
+
+MinMaxSlider .unity-min-max-slider__tracker {
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: var(--color-menu-background);
+}
+
+.heightZero {
+    height: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    visibility: hidden;
+}
+
+.marginRegister {
+    margin-left: 8%;
+    margin-right: 4px;
+    margin-top: 4%;
+    height: 4%;
+}
+
+.showGrow {
+    transition-property: visibility, height;
+    transition-duration: 0.1s, 0.3s;
+    transition-delay: 0.3s, 0s;
+}
+
+.hideShrink {
+    transition-property: visibility, height;
+    transition-duration: 0.1s, 0.3s;
+    transition-delay: 0s, 0.1s;
+}

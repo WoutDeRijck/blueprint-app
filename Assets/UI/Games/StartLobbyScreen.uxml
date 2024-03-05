@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Games/Lobby.uss?fileID=7433441132597879392&amp;guid=f8c22c5a7662a50478ee17e659961b8f&amp;type=3#Lobby" />
+    <ui:VisualElement name="create-lobby-screen" class="screen">
+        <ui:VisualElement name="lobby-left-panel" class="lobby-left-panel lobby-right-panel" style="left: 50px; align-self: flex-start;">
+            <ui:VisualElement name="buttons-list" class="buttons-list" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                <ui:Button text="Create Lobby" display-tooltip-when-elided="true" name="create-lobby-button" class="menu-button button" style="width: 150%;" />
+                <ui:TextField picking-mode="Ignore" value="Enter Lobby Code Here" name="lobby-code-field" />
+                <ui:Button text="Enter Lobby" display-tooltip-when-elided="true" name="enter-lobby-button" class="menu-button button" style="width: 150%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

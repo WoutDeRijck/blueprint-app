@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Item
+  - Obstacle
+  - Floor
+  - PlayerExtension
+  - Obstacle_Vertical
+  - Obstacle_Horizontal
+  - Enemy
+  - GroupBombCamera
+  - Snake
+  - Endboss
+  - Bomb
+  - Heart
+  - GameHandler
+  - Data
+  - BackGround
+  - SnakeHead
+  - Food
+  - Prompt
+  - EndbossHotspot
+  - LastPrompt
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Walls
+  - GameUI
+  - EndUI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Game Background
+    uniqueID: 3787286967
+    locked: 0
+  - name: World
+    uniqueID: 4187844527
+    locked: 0
+  - name: Item
+    uniqueID: 708647581
+    locked: 0
+  - name: Game Player
+    uniqueID: 4273497747
+    locked: 0
+  - name: Game UI
+    uniqueID: 953153955
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: MiniGame Background
+    uniqueID: 2308935633
+    locked: 0
+  - name: MiniGame Player
+    uniqueID: 281496367
+    locked: 0
+  - name: MiniGame UI
+    uniqueID: 2660947905
+    locked: 0

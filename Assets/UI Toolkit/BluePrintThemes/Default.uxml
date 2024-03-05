@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/BluePrintThemes/bluePrint.uss?fileID=7433441132597879392&amp;guid=0f11ff20c9d729346a4c30ca29dc91bb&amp;type=3#bluePrint" />
+    <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" />
+    <ui:VisualElement style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-shrink: 0; width: 20%; height: 15%;">
+        <ui:Button text="Normal" display-tooltip-when-elided="true" class="moveHover" />
+        <ui:Button text="Primary" display-tooltip-when-elided="true" class="primary" />
+        <ui:Button text="Secondary" display-tooltip-when-elided="true" enable-rich-text="true" />
+        <ui:TextField picking-mode="Ignore" value="filler text" />
+        <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" />
+    </ui:VisualElement>
+</ui:UXML>

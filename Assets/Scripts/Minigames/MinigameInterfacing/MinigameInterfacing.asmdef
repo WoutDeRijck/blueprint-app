@@ -1,0 +1,16 @@
+{
+    "name": "MinigameInterfacing",
+    "rootNamespace": "",
+    "references": [
+        "GUID:55328a97849194641aafec55d7e7f01a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
